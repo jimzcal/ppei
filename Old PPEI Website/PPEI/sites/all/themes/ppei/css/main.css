@@ -1,0 +1,1287 @@
+body {
+    background: #ffffff url(../images/topbg.jpg) no-repeat;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: 'Open Sans', Calibri, Arial, Helvetica, Tahoma, sans-serif;
+}
+
+h1, h2, h3, h4 {font-weight: normal; margin: 0px; padding: 0px;}
+h1, .front h2, div.greenTitle, .aboveFooter h2, .aboveFooter h3, #block-views-news-events-block h2 {font-size: 26px; line-height: 28px;}
+#block-views-news-events-block h2, #block-views-stories-of-change-block h2 {margin: 0 0 10px 0;}
+h2, .front .content h2 {font-size: 16px; line-height: 18px; margin: 5px 0 0 0}
+h3 {font-size: 20px; line-height: 22px;}
+h4 {font-size: 12px; line-height: 13px; margin: 5px 0 0 0;}
+p, label, #contact-site-form .description, .not-front .view-header, .not-front .view-footer, .field-type-text, .field-type-list-text, .form-type-item, .webform-component .description, div.field-item {font-size: 13px; color: #4F6228;}
+label {text-transform: uppercase;}
+
+ol, ul {font-size: 12px; color: #77933c;}
+
+ul {list-style-image: url(../images/bullet-green.png); padding: 5px 10px 5px 20px;  margin: 0px;}
+li {margin: 5px 0;}
+.view-display-id-block ul {padding: 0px 10px 5px 20px !important;}
+.view-display-id-block li.views-row {margin: 10px 0 !important;}
+.featured-content-block-3 ul li {margin: 10px 0 !important;}
+.view-content {margin: 10px 0 0 0;}
+
+hr {border-bottom: 1px dotted #4f6228; border-top: 0px; border-right: 0px; border-left: 0px; margin: 20px 0;}
+
+a, a:visited {
+	color:#56b949;
+	text-decoration:none;
+}
+a:hover, a:active {
+	color:#3a9c2d;
+	text-decoration:underline;
+}
+
+#wrapper {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    border: 0px;
+    padding: 0px;
+}
+
+#topWrapper {
+    float: left;
+    width: 1000px;
+    margin: 0 auto;
+    border: 0px;
+    padding: 40px 0 0 0;
+    height: 225px;
+}
+
+.logged-in #topWrapper {
+    padding: 0px;
+}
+
+#widthWrapper {
+    clear: both;
+    width: 950px;
+    margin: 0 auto;
+    border: 0px;
+    padding: 20px 20px 0 30px;
+    background: url(../images/body-bg.png) repeat-y;
+    height: 600px;    
+}
+
+body#inner #widthWrapper {padding-top: 10px !important;}
+
+#topWrapper #logoSpace {
+    float: left;
+    width: 600px;
+    height: 155px;
+    border: 0px;
+    padding: 25px 0 0 10px;
+    margin: 0px;
+    font-size: 12px;
+}
+
+#siteSlogan {
+    position: absolute;
+    top: 140px;
+    left: 200px;
+}
+
+#topWrapper #logoSupport {
+    float: left;
+    width: 380px;
+    height: 155px;
+    border: 0px;
+    margin: 0px;
+    padding: 0 10px 0 0;
+    text-align: right;
+}
+
+#topWrapper #navWrapper {
+    float: left;
+    width: 1000px;
+    height: 70px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    background: url(../images/whole-nav.png) no-repeat;
+}
+
+#topWrapper #navWrapper #mainNav {
+    margin-left: 14px;
+}
+
+#topWrapper #navWrapper #mainNav ul {
+    display: inline;
+    list-style: none;
+    list-style-type: none;
+}
+
+#topWrapper #navWrapper #mainNav li {
+    float: left;
+    margin: 5px 0 0 0;
+    padding: 5px 10px;
+    border-left: 1px solid #a6c468;
+    border-right: 1px solid #dee8c8;
+}
+
+#topWrapper #navWrapper #mainNav li a {
+    font-family: 'Open Sans', Arial, Calibri, Helvetica, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    text-shadow: 0px 1px 1px #ffffff;
+    text-decoration: none;
+}
+#topWrapper #navWrapper #mainNav li a:link, #topWrapper #navWrapper #mainNav li a:visited {color: #77933c;}
+#topWrapper #navWrapper #mainNav li a:hover {color: #597226;}
+#topWrapper #navWrapper #mainNav li a:active {color: #77933c;}
+
+#topWrapper #navWrapper #subNav {
+    margin-left: 14px;
+}
+
+#topWrapper #navWrapper #subNav ul {
+    display: inline;
+    list-style: none;
+    list-style-type: none;
+}
+
+#topWrapper #navWrapper #subNav li {
+    float: left;
+    margin: 12px 0 0 0;
+    padding: 0px 10px 5px 10px;
+    border-left: 1px solid #95b1da;
+    border-right: 1px solid #b1c6e6;
+}
+
+#topWrapper #navWrapper #subNav li a {
+    font-family: 'Open Sans', Arial, Calibri, Helvetica, Tahoma, sans-serif;
+    font-size: 11px;
+    padding: 0px;
+    margin: 0px;
+    /*text-shadow: 0px 1px 1px #ffffff;*/
+    text-decoration: none;
+}
+#topWrapper #navWrapper #subNav li a:link, #topWrapper #navWrapper #subNav li a:visited {color: #ffffff;}
+#topWrapper #navWrapper #subNav li a:hover {color: #ffffff; text-decoration: underline;}
+#topWrapper #navWrapper #subNav li a:active {color: #ffffff;}
+
+#navWrapper h2 {display:none;}
+#navWrapper li.first {border-left: 0px !important;}
+#navWrapper li.last {border-right: 0px !important;}
+
+#column-left {
+    width: 614px;
+    float: left;
+    margin-top: 20px;
+}
+
+#column-right {
+    width: 298px;
+    float: left;
+    padding: 0 0 0 20px;
+    margin-top: 20px;
+}
+
+.boBoxes {
+    float: left;
+    width: 188px;
+    margin: 20px 20px 20px 0;
+    border: 1px solid #4f6228;
+    padding: 0px;
+}
+.boxImage {
+    float: left;
+    width: 188px;
+    height: 87px;
+    margin: 0px;
+    padding: 0px;
+}
+.boBoxHeadline {
+    float: left;
+    width: 148px;
+    padding: 10px 20px;
+    color: #ffffff;
+    background: #678aae;
+    margin: 0px;
+}
+.boBoxContent {
+    float: left;
+    position: relative;
+    width: 148px;
+    height: 220px;
+    padding: 10px 20px;
+    margin: 0px;
+    background: #597226 url(../images/boxBG.jpg) bottom center no-repeat;
+}
+
+.contentBlock, .contentBlock2 {
+    margin: 0 0 20px 0;
+}
+.contentBlock2 ul, .contentBlock ol {
+    padding: 0 0 0 20px;
+    margin: 0px;
+}
+.contentBlock2 ul {
+    list-style-image: url(../images/bullet-green.png);
+}
+.contentBlock2 ol {
+    list-style-type: lower-alpha
+}
+.contentBlock2 ul li, .contentBlock2 ol li {
+    color: #778f45;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+.contentBlockHalf {
+    float: left;
+    width: 297px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.contentBlockHalfFirst {margin-right: 10px !important;}
+.contentBlockHalfLast {margin-left: 10px !important;}
+
+.contentSubBlock {
+    margin: 0 0 20px 0;
+}
+
+.greenSidebar, #block-featured-content-4 {
+    width: 298px;
+    padding: 0px;
+    border: 1px solid #597226;
+    background: #dce7c5;
+}
+.greenSidebar .greenTitle {
+    padding: 5px 10px;
+    color: #4f6228;
+    margin: 0px;
+    border: 0px;
+}
+.greenSidebar .greenContent, #block-featured-content-4, #block-views-stories-of-change-block-1 {
+    padding: 5px 10px;
+    color: #859c53;
+    margin: 0px;
+}
+.greenContent ul {
+    list-style-image: url(../images/bullet-green.png);
+    padding: 10px 10px 0 10px;
+    margin: 0px;
+}
+.greenContent ul li {
+    color: #859c53;
+    font-size: 12px;
+    margin: 0 10px 10px 10px;
+}
+#block-block-9, #block-block-10, #block-block-23, #block-block-24, #block-views-stories-of-change-block-1 {
+    width: 278px;
+    padding: 5px 10px;
+    border: 1px solid #597226;
+    background: #dce7c5;
+    color: #859c53;
+    margin: 0px;
+}
+#block-views-stories-of-change-block-1 ul {list-style-image: url(../images/bullet-green.png) !important;}
+#block-views-stories-of-change-block-1 ul li {margin: 0 0 7px 20px !important;}
+#block-views-stories-of-change-block-1 {margin: 10px 0;}
+.blueSidebar {
+    width: 298px;
+    padding: 0px;
+    border: 1px solid #35a8df;
+    background: #c5dce6;
+}
+.blueContentBox, #block-views-news-events-block, #block-views-stories-of-change-block {
+    float: left;
+    width: 275px;
+    padding: 10px !important;
+    border: 1px solid #35a8df;
+    background: #c5dce6;
+}
+#block-views-news-events-block {margin-right: 18px !important;}
+.blueContentBox h2, #block-views-news-events-block h2, #block-views-stories-of-change-block h2 {
+    padding: 5px 0px;
+    color: #1578a7 !important;
+    margin: 0px;
+    border: 0px;
+}
+.blueSidebar .blueTitle {
+    padding: 5px 10px;
+    color: #1578a7;
+    margin: 0px;
+    border: 0px;
+}
+.blueSidebar .blueContent, #block-views-news-events-block, #block-views-stories-of-change-block {
+    padding: 5px 10px;
+    color: #1578a7 !important;
+    margin: 0px;
+    border: 1px solid #35a8df;
+}
+.blueContent ul, #block-views-news-events-block ul, #block-views-stories-of-change-block ul {
+    list-style-image: url(../images/bullet-blue.png);
+    padding: 10px;
+    margin: 0px;
+}
+.blueContent ul li, #block-views-news-events-block ul li, #block-views-stories-of-change-block ul li {
+    color: #1578a7 !important;
+    font-size: 12px;
+    margin: 0 10px 10px 10px;
+}
+#block-views-news-events-block ul li a:link, #block-views-news-events-block ul li a:visited, #block-views-stories-of-change-block ul li a:link, #block-views-stories-of-change-block ul li a:visited {
+    color: #1578a7 !important;
+    text-decoration: none;
+}
+#block-views-news-events-block ul li a:hover, #block-views-stories-of-change-block ul li a:hover {
+    color: #0a5173 !important;
+    text-decoration: underine;
+}
+#block-views-news-events-block ul li a:active, #block-views-stories-of-change-block ul li a:active {
+    color: #1578a7 !important;
+    text-decoration: none;
+}
+.blueSidebar .blueContent, #block-views-news-events-block .view-header, #block-views-stories-of-change-block .view-header, #block-views-news-events-block .view-footer, #block-views-stories-of-change-block .view-footer {
+    color: #1578a7 !important;
+}
+.blueSidebar .blueContent .more-link, #block-views-news-events-block .more-link, #block-views-stories-of-change-block .more-link {
+    width: 100px;
+    border: 1px solid #35a8df;
+    padding: 3px;
+    font-size: 11px;
+    text-align: center;
+    background: url(../images/bluebutton-bg.png) repeat-x;
+}
+.blueSidebar .blueContent .more-link a:link, #block-views-news-events-block .more-link a:link, #block-views-stories-of-change-block .more-link a:link, .blueSidebar .blueContent .more-link a:visited, #block-views-news-events-block .more-link a:visited, #block-views-stories-of-change-block .more-link a:visited {color: #1578a7; text-decoration: none;}
+.blueSidebar .blueContent .more-link a:hover, #block-views-news-events-block .more-link a:hover, #block-views-stories-of-change-block .more-link a:hover {text-decoration: underline; color: #084d6e;}
+.blueSidebar .blueContent .more-link a:active, #block-views-news-events-block .more-link a:active, #block-views-stories-of-change-block .more-link a:active {color: #1578a7; text-decoration: none;}
+
+.graySidebar {
+    width: 298px;
+    padding: 0px;
+    border: 1px solid #c0c0c0;
+    background: #ffffff;
+}
+.graySidebar .grayTitle {
+    padding: 5px 10px;
+    color: #9c9c9c;
+    margin: 0px;
+    border: 0px;
+}
+.graySidebar .grayContent {
+    padding: 5px 10px;
+    color: #a2a2a2;
+    margin: 0px;
+    border: 0px;
+}
+
+.aboveFooter {
+    width: 100%;
+    float: left;
+}
+
+/* FOOTER */
+
+#footer {
+    clear: both;
+    width: 100%;
+    /* height: 500px; */
+    margin: 0px;
+    padding: 0 0 20px 0;
+    background: url(../images/footer-bg.png) repeat-x;
+}
+#footer #footerWrapper {
+    width: 980px;
+    margin: 0 auto;
+}
+#footer .sitemapBlock {
+    float: left;
+    width: 140px;
+    height: 250px;
+    border-left: 1px solid #77933c;
+    color: #ffffff;
+    margin: 20px 0;
+    padding-right: 20px;
+}
+.sitemapBlock ul {
+    list-style-type: none;
+    list-style: none;
+    margin: 0 0 0 20px;
+    padding: 0px;
+    font-size: 14px;
+}
+.sitemapBlock ul ul {
+    margin-top: 10px;
+}
+.sitemapBlock li, .sitemapBlock li ul li {margin: 0 0 10px 0;}
+.sitemapBlock li ul li {line-height: 14px;}
+.sitemapBlock li a:link, .sitemapBlock li a:visited {color: #ffffff; text-decoration: none;}
+.sitemapBlock li a:hover {color: #c6e08f; text-decoration: underline;}
+.sitemapBlock li a:active {color: #ffffff; text-decoration: none;}
+
+.sitemapBlock ul li ul li a:link, .sitemapBlock ul li ul li a:visited {color: #afb9a0; text-decoration: none; font-size: 12px !important;}
+.sitemapBlock ul li ul li a:hover {color: #c5de9f; text-decoration: underline; font-size: 12px !important;}
+.sitemapBlock ul li ul li a:active {color: #afb9a0; text-decoration: none; font-size: 12px !important;}
+
+#footCopy {
+    width: 980px;
+    margin: 0 auto;
+    padding: 15px 0 0 0;
+    border: 0px;
+    text-align: center;
+    font-size: 11px;
+    color: #9fb17e;
+    text-transform: uppercase;
+    clear: both;
+}
+
+#footCopy2 {
+    width: 980px;
+    height: 68px;
+    margin: 0 auto;
+    padding: 35px 0 0 0;
+    border: 0px;
+    text-align: center;
+    font-size: 11px;
+    color: #9fb17e;
+}
+
+/* BUTTONS */
+
+.greenButton1 {
+    position: absolute;
+    top: 200px;
+    right: 10px;
+    width: 100px;
+    border: 1px solid #77933c;
+    padding: 3px;
+    font-size: 11px;
+    text-align: center;
+    background: url(../images/greenbutton-bg.png) repeat-x;
+}
+.greenButton {
+    width: 200px;
+    border: 1px solid #77933c;
+    padding: 3px;
+    font-size: 11px;
+    text-align: center;
+    background: url(../images/greenbutton-bg.png) repeat-x;
+    margin: 20px 0 10px 0;
+}
+.more-link {
+    width: 100px;
+    border: 1px solid #77933c;
+    padding: 3px;
+    font-size: 11px;
+    text-align: center;
+    background: url(../images/greenbutton-bg.png) repeat-x;
+}
+.featured-content-more-link, .front .view-news-events .more-link, .view-stories-of-change .more-link {
+    /*float: right;*/
+    width: 100px;
+    border: 1px solid #77933c;
+    padding: 3px;
+    font-size: 11px;
+    text-align: center;
+    background: url(../images/greenbutton-bg.png) repeat-x;
+}
+.greenButton1 a:link, .greenButton1 a:visited, .greenButton a:link, .greenButton a:visited, .greenContent a:link, .greenContent a:visited, .more-link a:link, .more-link a:visited {color: #77933c; text-decoration: none;}
+.greenButton1 a:hover, .greenButton a:hover, .greenContent a:hover, .more-link a:hover {text-decoration: underline; color: #51720d;}
+.greenButton1 a:active, .greenButton a:active, .greenContent a:active, .more-link a:active {color: #77933c; text-decoration: none;}
+
+.greenSidebar .greenButton {
+    margin: 10px;
+    width: 0 auto;
+}
+
+.blueButton1 {
+    position: absolute;
+    top: 200px;
+    right: 10px;
+    width: 100px;
+    border: 1px solid #35a8df;
+    padding: 3px;
+    font-size: 11px;
+    text-align: center;
+    background: url(../images/bluebutton-bg.png) repeat-x;
+}
+.blueButton {
+    width: 120px;
+    border: 1px solid #35a8df;
+    padding: 3px;
+    font-size: 11px;
+    text-align: center;
+    background: url(../images/bluebutton-bg.png) repeat-x;
+    margin: 10px 0 10px 0;
+}
+.blueButton1 a:link, .blueButton1 a:visited, .blueButton a:link, .blueButton a:visited, .blueContent a:link, .blueContent a:visited {color: #1578a7; text-decoration: none;}
+.blueButton1 a:hover, .blueButton a:hover, .blueContent a:hover {text-decoration: underline; color: #084d6e;}
+.blueButton1 a:active, .blueButton a:active, .blueContent a:active {color: #1578a7; text-decoration: none;}
+
+/* CUSTOM */
+
+.block {margin-bottom: 10px;}
+.mR15 {margin-right: 15px;}
+.mB20 {margin-bottom: 20px;}
+.shadow {
+    -moz-box-shadow: 3px 3px 4px #000;
+    -webkit-box-shadow: 3px 3px 4px #000;
+    box-shadow: 1px 3px 4px #000;
+}
+.clear {clear: both;}
+.last {margin-right: 0px !important;}
+
+.green1, .title, .front h2, .block h2 {color: #607c26 !important;}
+.nivo-caption h2 {color: #96cb29 !important;}
+.green2 {color: #7aa12c;}
+.green3 {color: #a5c366;}
+.blue1 {color: #1578a7;}
+.ital {font-style: italic;}
+
+.boBoxHeadline h3 {font-weight: normal; font-size: 15px; margin: 0px; padding: 0px;}
+.boBoxContent p {font-size: 11px; line-height: 13px; color: #A5C366;}
+a.hLink {text-decoration: none;}
+
+.greenSidebar h1, .blueSidebar h1, .graySidebar h1 {font-size: 18px; line-height: 20px;}
+
+.w278 {width: 278px;}
+.w170 {width: 170px;}
+input, select, textarea, .form-file {font-family: 'Open Sans', calibri, arial, helvetica, tahoma, sans-serif; padding: 4px 10px; font-size: 12px; color: #939393; background: #ececec; border: 1px solid #a6a6a6;}
+input.inputButton {background: url(../images/graybutton-bg.png) repeat-x; padding: 4px; font-size: 11px; color: #5b5b5b; text-transform: uppercase; border: 0px; text-shadow: 0px 1px 1px #ffffff;}
+#advancedSearch {margin-left: 20px;}
+a#advancedSearch:link, a#advancedSearch:visited {font-size: 12px; color: #939393; text-decoration: none;}
+a#advancedSearch:hover {font-size: 12px; color: #5f5f5f; text-decoration: underline;}
+a#advancedSearch:active {font-size: 12px; color: #939393; text-decoration: none;}
+
+img.imgUnder {margin-top: 20px;}
+img.imgOver {margin-bottom: 20px;}
+
+table tr.lightRow {background: #ffffff; border-bottom: 1px solid #c5dce6;}
+table tr.darkRow {background: #d9e6ec; border-bottom: 1px solid #c5dce6;}
+tr.lightRow td, tr.darkRow td {padding: 5px; font-size: 12px;}
+.pad10 {padding: 10px;}
+.blueTable {border: 1px solid #c5dce6;}
+.centerText {text-align: center;}
+.ital {font-style: italic;}
+.highlight {font-weight: bold;}
+
+img.thumbImgHome {margin: 0px 3px;}
+#first-time {display: none;}
+
+/* AFTER BREAK OUT BOXES */
+
+#block-featured-content-3 {
+    float: left;
+    width: 297px;
+    margin: 0 10px 0 0;
+    padding: 0px;
+    border: 0px;
+}
+
+#block-featured-content-2 {
+    float: left;
+    width: 297px;
+    margin: 0 0 0 10px;
+    padding: 0px;
+    border: 0px;
+}
+.featured-content-block-header p, .featured-content-block-footer p, .view-display-id-block .view-header, .view-display-id-block .view-footer {font-size: 10px !important; color: #4F6228;}
+.view-header, .view-footer {font-style: italic;}
+.view-footer {clear: both; padding-top: 10px;}
+.pictureBlock {margin: 0 3px;}
+.page-news-events h1#page-title, .page-stories-of-change h1#page-title, .page-partners h1#page-title {font-size: 20px;}
+
+#block-views-all-publications-block td a img {width: 50px !important; height: 71px !important;}
+#block-views-all-publications-block {border: 1px dotted #77933c; padding: 10px 5px; background: #DCE7C5;}
+#block-views-all-publications-block td {padding: 5px; font-size: 12px; color: #4F6228;}
+#block-views-all-publications-block table {margin: 5px 0 5px 0; border: 1px solid #a0b771;}
+#block-views-all-publications-block h2 {color: #859C53; font-size: 26px;}
+#block-views-all-publications-block tr.odd {background: #e4eed0;}
+#block-views-all-publications-block tr.even {background: #e8f0d8;}
+
+#block-views-all-policy-briefs-block td a img {width: 50px !important; height: 71px !important;}
+#block-views-all-policy-briefs-block {border: 1px dotted #77933c; padding: 10px 5px; background: #DCE7C5;}
+#block-views-all-policy-briefs-block td {padding: 5px; font-size: 12px; color: #4F6228;}
+#block-views-all-policy-briefs-block table {margin: 5px 0 5px 0; border: 1px solid #a0b771;}
+#block-views-all-policy-briefs-block h2 {color: #859C53; font-size: 26px; margin-bottom: 10px;}
+#block-views-all-policy-briefs-block tr.odd {background: #e4eed0;}
+#block-views-all-policy-briefs-block tr.even {background: #e8f0d8;}
+
+#block-views-all-presentation-materials-block td a img {width: 50px !important; height: 71px !important;}
+#block-views-all-presentation-materials-block {border: 1px dotted #77933c; padding: 10px 5px; background: #DCE7C5;}
+#block-views-all-presentation-materials-block td {padding: 5px; font-size: 12px; color: #4F6228;}
+#block-views-all-presentation-materials-block table {margin: 5px 0 5px 0; border: 1px solid #a0b771;}
+#block-views-all-presentation-materials-block h2 {color: #859C53; font-size: 26px; margin-bottom: 10px;}
+#block-views-all-presentation-materials-block tr.odd {background: #e4eed0;}
+#block-views-all-presentation-materials-block tr.even {background: #e8f0d8;}
+
+#block-views-24d871cbf5c5c656eb2a589663cd275b td a img {width: 50px !important; height: 71px !important;}
+#block-views-24d871cbf5c5c656eb2a589663cd275b {border: 1px dotted #77933c; padding: 10px 5px; background: #DCE7C5;}
+#block-views-24d871cbf5c5c656eb2a589663cd275b td {padding: 5px; font-size: 12px; color: #4F6228;}
+#block-views-24d871cbf5c5c656eb2a589663cd275b table {margin: 5px 0 5px 0; border: 1px solid #a0b771;}
+#block-views-24d871cbf5c5c656eb2a589663cd275b h2 {color: #859C53; font-size: 26px; margin-bottom: 10px;}
+#block-views-24d871cbf5c5c656eb2a589663cd275b tr.odd {background: #e4eed0;}
+#block-views-24d871cbf5c5c656eb2a589663cd275b tr.even {background: #e8f0d8;}
+
+#block-views-all-speeches-block td a img {width: 50px !important; height: 71px !important;}
+#block-views-all-speeches-block {border: 1px dotted #77933c; padding: 10px 5px; background: #DCE7C5;}
+#block-views-all-speeches-block td {padding: 5px; font-size: 12px; color: #4F6228;}
+#block-views-all-speeches-block table {margin: 5px 0 5px 0; border: 1px solid #a0b771;}
+#block-views-all-speeches-block h2 {color: #859C53; font-size: 26px; margin-bottom: 10px;}
+#block-views-all-speeches-block tr.odd {background: #e4eed0;}
+#block-views-all-speeches-block tr.even {background: #e8f0d8;}
+
+/* ADDED AFTER DRUPAL CUSTOMIZATION */
+.articleBlock {
+    width: 100%;
+    padding: 0 0 15px 0;
+    margin: 0 0 15px 0;
+    /*border-bottom: 1px dotted #4f6228;*/
+}
+.submitted {
+    font-size: 10px;
+    text-transform: uppercase;
+    margin: 5px 0 10px 0;
+    color: #5ea0ca;
+}
+.submitted a:link, .submitted a:visited {color: #478ebb;}
+.submitted a:hover {color: #2d7bad;}
+.submitted a:active {color: #478ebb;}
+
+.user-picture {
+    display: none;
+}
+
+ul.links li.node-readmore,
+ul.links li.comment-comments,
+ul.links li.comment-new-comments,
+ul.links li.comment-add {
+    width: 200px !important;
+    border: 1px solid #77933c;
+    padding: 3px 20px;
+    font-size: 11px;
+    text-align: center;
+    background: url(../images/greenbutton-bg.png) repeat-x;
+    margin: 20px 0 10px 0;
+}
+
+ul.links li.node-readmore a:link, ul.links li.node-readmore a:visited,
+ul.links li.comment-comments a:link, ul.links li.comment-comments a:visited,
+ul.links li.comment-new-comments a:link, ul.links li.comment-new-comments a:visited,
+ul.links li.comment-add a:link, ul.links li.comment-add a:visited {
+    color: #77933c; 
+    text-decoration: none;    
+}
+ul.links li.node-readmore a:hover,
+ul.links li.comment-comments a:hover,
+ul.links li.comment-new-comments a:hover,
+ul.links li.comment-add a:hover {
+    text-decoration: underline; color: #51720d;
+}
+ul.links li.node-readmore a:active,
+ul.links li.comment-comments a:active,
+ul.links li.comment-new-comments a:active,
+ul.links li.comment-add a:active {
+    color: #77933c; text-decoration: none;
+}
+body.page-all-presentation-materials .field-item img, body.page-stories-of-change .field-item img {margin: 0 5px 0px 0 !important;}
+.field-item img {float: left; margin: 0 10px 10px 0;}
+.field-type-taxonomy-term-reference {
+    clear: left;
+    font-size: 10px;
+    color: #4F6228;
+    text-transform: uppercase;
+}
+.field-item {/*float: left;*/ margin-right: 8px;}
+#logoSupport p {margin: 0px; padding: 0px;}
+.aboveFooter h3 {text-align: center; margin-bottom: 20px; color: #4F6228;}
+.view-gallery ul {list-style: none; list-style-type: none; margin: 0 auto;}
+.view-gallery ul li {display: inline; float: left; padding: 0px; margin: 9px;}
+/*.view-gallery .pager, .view-news-events .pager {display: none;}*/
+.view-gallery .more-link {clear: both;}
+.pictureBlock img {width: 100px !important; height: 100px !important;}
+.view-gallery .more-link {float: right;}
+#block-views-gallery-block h2 {font-size: 26px; text-align: center;}
+.views-field-field-picture-caption {padding: 5px 20px 25px 0px; font-size: 12px; line-height: 16px; color: #4F6228;}
+.view-gallery .pictureBlock td {vertical-align: top; text-align: center;}
+/* .aboveFooter {margin-bottom: 20px;} */
+#search-block-form .form-text {width: 170px; padding: 4x;}
+#search-block-form .form-submit, #edit-submit, #edit-preview, #edit-submitted-image-picture-upload-button {padding: 3px 10px; background: url(../images/greenbutton-bg.png) repeat-x;}
+#edit-submit, #edit-preview {margin-right: 10px;}
+#block-system-user-menu h2 {display: none;}
+#block-system-user-menu li {font-size: 13px;}
+.not-front .view-stories-of-change .view-content ul, .not-front .view-news-events .view-content ul, .view-partners .view-content ul  {list-style: none; list-style-type: none; margin: 20px 0 0 0;}
+.view-stories-of-change .view-content ul li, .view-news-events .view-content ul li, .view-partners .view-content ul li {margin: 0px;}
+#edit-comment-body-und-0-format, .ckeditor_links {font-size: 11px;}
+.comment-wrapper {border-top: 1px dotted #4F6228; margin: 10px 0; padding: 5px 0;}
+.comment .field-name-comment-body .field-item p {width: 613px; margin-bottom: 20px;}
+.comment .links {clear: both; padding-bottom: 10px;}
+.comment-wrapper {margin: 30px 0 !important;}
+.comment {margin: 20px 0 !important; padding-bottom: 20px; border-bottom: 1px dotted #4F6228;}
+.field-name-field-logo {clear: both; float: left;}
+.view-partners .field-name-body {float: left; width: 480px;}
+.view-partners .field-item p {margin-top: 0px;}
+
+.field-name-field-contributor,
+.field-name-field-organization,
+.field-name-field-type-of-organization,
+.field-name-field-position,
+.field-name-field-contact-number,
+.field-name-field-email-address,
+.field-name-field-website,
+.field-name-field-what-is-your-story-about {
+    clear: both !important; 
+    float: left !important;
+}
+
+.field-name-field-website p, .field-name-field-email-address p {margin: 0px;}
+span.new {margin: 0 0 10px 0;}
+#block-views-24d871cbf5c5c656eb2a589663cd275b h2 {line-height: 24px;}
+.node-webform .submitted {display: none;}
+
+.node-type-publication .field-items {float: left; width: auto;}
+.node-type-publication .field-name-field-desription .field-items {float:left; width:420px; margin-bottom: 10px;}
+
+body.front #block-views-news-events-block .views-row, body.front #block-views-stories-of-change-block .views-row {clear: both; margin-bottom: 10px;}
+body.front #block-views-news-events-block .views-field-field-image, body.front #block-views-stories-of-change-block .views-field-field-related-image {float: left !important; width: 110px !important; padding-bottom: 10px;}
+body.front #block-views-news-events-block .views-field-title, body.front #block-views-stories-of-change-block .views-field-title {float: left !important; width: 125px !important; padding-bottom: 10px;}
+body.front #block-views-news-events-block .more-link, body.front #block-views-stories-of-change-block .more-link {clear: both;}
+body.front #block-views-news-events-block ul, body.front #block-views-stories-of-change-block ul {list-style: none; list-style-type: none; margin-left: -20px;}
+
+#footer .sitemapBlock2 {
+    float: left;
+    width: 280px;
+    height: 250px;
+    border-left: 1px solid #77933c;
+    color: #ffffff;
+    margin: 20px 0;
+    padding: 0 20px;    
+}
+#footer .sitemapBlock2 p {font-size: 11px; color: #ffffff !important; margin-top: 0px;}
+#footer .sitemapBlock2 .footTitle3 {font-weight: bold;}
+#block-block-28 h3 {text-align: left;}
+.region-mainarticle {margin-top: 20px;}
+#siteSlogan p {color: #ffffff !important; text-shadow:1px 1px 1px #000; filter: shadow(color=#000000,direction=135,strength=1); -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=135,strength=1)";}
+
+/*
+ * simplyScroll 2 - a scroll-tastic jQuery plugin
+ *
+ * http://logicbox.net/jquery/simplyscroll
+ *
+ * Copyright (c) 2009-2012 Will Kelly - http://logicbox.net
+ *
+ * Dual licensed under the MIT and GPL licenses.
+ *
+ * Last revised: 31/01/2012
+ *
+ */
+
+/* Default/Master classes 
+
+Example markup format (for horizontal scroller)
+Note all DIVs are generated and should not be hard-coded
+
+<div class="your-custom-class simply-scroll-container">
+	<div class="simply-scroll-btn simply-scroll-btn-left"></div>
+	<div class="simply-scroll-btn simply-scroll-btn-right"></div>
+	<div class="simply-scroll-clip">
+		<ul class="simply-scroll-list">
+			<li>...</li>
+			...
+		</ul>
+	</div>
+</div>
+
+
+*/
+
+.simply-scroll-container { /* Container DIV - automatically generated */
+	position: relative;
+}
+
+	.simply-scroll-clip { /* Clip DIV - automatically generated */
+		position: relative;
+		overflow: hidden;
+	}
+
+	.simply-scroll-list { /* UL/OL/DIV - the element that simplyScroll is inited on */
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+		.simply-scroll-list li {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+		}
+	
+		.simply-scroll-list li img {
+			border: none;
+			display: block;
+		}
+	
+	.simply-scroll-btn {
+		position: absolute;
+		background-image: url(buttons.png);
+		width: 42px;
+		height: 44px;
+		z-index:3;
+		cursor: pointer;
+	}
+	
+	.simply-scroll-btn-left {
+		left: 6px;
+		bottom: 6px;
+		background-position: 0 -44px;
+	}
+	.simply-scroll-btn-left.disabled {
+		background-position: 0 0 !important;
+	}
+	.simply-scroll-btn-left:hover, .simply-scroll-btn-left:focus {
+		background-position: 0 -88px;
+	}
+	
+	.simply-scroll-btn-right {
+		right: 6px;
+		bottom: 6px;
+		background-position: -84px -44px;
+	}
+	.simply-scroll-btn-right.disabled {
+		background-position: -84px 0 !important;
+	}
+	.simply-scroll-btn-right:hover, .simply-scroll-btn-right:focus {
+		background-position: -84px -88px;
+	}
+	
+	.simply-scroll-btn-up {
+		right: 6px;
+		top: 6px;
+		background-position: -126px -44px;
+	}
+	.simply-scroll-btn-up.disabled {
+		background-position: -126px 0 !important;
+	}
+	.simply-scroll-btn-up:hover, .simply-scroll-btn-up:focus {
+		background-position: -126px -88px;
+	}
+	
+	.simply-scroll-btn-down {
+		right: 6px;
+		bottom: 6px;
+		background-position: -42px -44px;
+	}
+	.simply-scroll-btn-down.disabled {
+		background-position: -42px 0 !important;
+	}
+	.simply-scroll-btn-down:hover, .simply-scroll-btn-down:focus {
+		background-position: -42px -88px;
+	}
+	
+	.simply-scroll-btn-pause {
+		right: 6px;
+		bottom: 6px;
+		background-position: -168px -44px;
+	}
+	.simply-scroll-btn-pause:hover, .simply-scroll-btn-pause:focus {
+		background-position: -168px -88px;
+	}
+	
+	.simply-scroll-btn-pause.active {
+		background-position: -84px -44px;
+	}
+	.simply-scroll-btn-pause.active:hover, .simply-scroll-btn-pause.active:focus {
+		background-position: -84px -88px;
+	}
+
+/* Custom class modifications - override classees
+
+.simply-scroll is default
+
+*/
+
+.simply-scroll { /* Customisable base class for style override DIV */
+	width: 950px;
+	height: 75px;
+	margin-bottom: 1em;
+}
+
+	.simply-scroll .simply-scroll-clip {
+		width: 950px;
+		height: 75px;
+	}
+	
+		.simply-scroll .simply-scroll-list {}
+		
+		.simply-scroll .simply-scroll-list li {
+			float: left;
+			width: 100px;
+			height: 75px;
+		}
+		.simply-scroll .simply-scroll-list li img {}
+	
+	.simply-scroll .simply-scroll-btn {}
+	
+	.simply-scroll .simply-scroll-btn-left {}
+	.simply-scroll .simply-scroll-btn-left.disabled {}
+	.simply-scroll .simply-scroll-btn-left:hover {}
+	
+	.simply-scroll .simply-scroll-btn-right {}
+	.simply-scroll .simply-scroll-btn-right.disabled {}
+	.simply-scroll .simply-scroll-btn-right:hover {}
+	
+	.simply-scroll .simply-scroll-btn-up {}
+	.simply-scroll .simply-scroll-btn-up.disabled {}
+	.simply-scroll .simply-scroll-btn-up:hover {}
+	
+	.simply-scroll .simply-scroll-btn-down {}
+	.simply-scroll .simply-scroll-btn-down.disabled {}
+	.simply-scroll .simply-scroll-btn-down:hover {}
+	
+
+
+/* Vertical scroller example */
+
+.vert { /* wider than clip to position buttons to side */
+	width: 340px;
+	height: 400px;
+	margin-bottom: 1.5em;
+}
+
+	.vert .simply-scroll-clip {
+		width: 290px;
+		height: 400px;
+	}
+	
+		.vert .simply-scroll-list {}
+		
+		.vert .simply-scroll-list li {
+			width: 290px;
+			height: 200px;
+		}
+		.vert .simply-scroll-list li img {}
+	
+	.vert .simply-scroll-btn {}
+
+	.vert .simply-scroll-btn-up { /* modified btn pos */
+		right: 0;
+		top: 0;
+	}
+	.vert .simply-scroll-btn-up.disabled {}
+	.vert .simply-scroll-btn-up:hover {}
+	
+	.vert .simply-scroll-btn-down { /* modified btn pos */
+		right: 0;
+		top: 52px;
+	}
+	.vert .simply-scroll-btn-down.disabled {}
+	.vert .simply-scroll-btn-down:hover {}
+	
+	/* NOTE left-right classes wouldn't be needed on vertical scroller */
+
+
+/*=================================*/
+/* Nivo Slider Demo
+/* November 2010
+/* By: Gilbert Pellegrom
+/* http://dev7studios.com
+/*=================================*/
+
+/*====================*/
+/*=== Reset Styles ===*/
+/*====================*/
+table {
+	border-collapse:separate;
+	border-spacing:0;
+}
+caption, th, td {
+	text-align:left;
+	font-weight:normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content:"";
+}
+blockquote, q {
+	quotes:"" "";
+}
+/* HTML5 tags */
+header, section, footer,
+aside, nav, article, figure {
+	display: block;
+}
+
+/*===================*/
+/*=== Main Styles ===*/
+/*===================*/
+
+#dev7link {
+    position:absolute;
+    top:0;
+    left:50px;
+    background:url(images/dev7logo.png) no-repeat;
+    width:60px;
+    height:67px;
+    border:0;
+    display:block;
+    text-indent:-9999px;
+}
+
+.slider-wrapper { 
+	width: 614px; 
+    height: 350px;
+	margin: 0px auto;
+}
+
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+.clear {
+	clear:both;
+}
+
+
+/*
+ * jQuery Nivo Slider v3.2
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2012, Dev7studios
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+ 
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	max-width: none;
+}
+.nivo-main-image {
+	display: block !important;
+	position: relative !important; 
+	width: 100% !important;
+}
+
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+	background:white; 
+	filter:alpha(opacity=0); 
+	opacity:0;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+	top:0;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+	overflow:hidden;
+}
+.nivo-box img { display:block; }
+
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:#000;
+	color:#fff;
+	width:100%;
+	z-index:8;
+	padding: 5px 10px;
+	opacity: 0.8;
+	overflow: hidden;
+	display: none;
+	-moz-opacity: 0.8;
+	filter:alpha(opacity=8);
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:9;
+	cursor:pointer;
+}
+.nivo-prevNav {
+	left:0px;
+    z-index: 999;
+}
+.nivo-nextNav {
+	right:0px;
+    z-index: 999;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+	text-align:center;
+	padding: 15px 0;
+}
+.nivo-controlNav a {
+	cursor:pointer;
+}
+.nivo-controlNav a.active {
+	font-weight:bold;
+}
+
+/*
+Skin Name: Nivo Slider Default Theme
+Skin URI: http://nivo.dev7studios.com
+Description: The default skin for the Nivo Slider.
+Version: 1.3
+Author: Gilbert Pellegrom
+Author URI: http://dev7studios.com
+Supports Thumbs: true
+*/
+
+.theme-default .nivoSlider {
+	position:relative;
+	background:#fff url(loading.gif) no-repeat 50% 50%;
+    margin-bottom:10px;
+    -webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    -moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    box-shadow: 0px 1px 5px 0px #4a4a4a;
+}
+.theme-default .nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.theme-default .nivoSlider a {
+	border:0;
+	display:block;
+}
+
+.theme-default .nivo-controlNav {
+	text-align: center;
+	padding: 0px 0;
+}
+.theme-default .nivo-controlNav a {
+	display:inline-block;
+	width:22px;
+	height:22px;
+	background:url(bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin: 0 2px;
+}
+.theme-default .nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.theme-default .nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	/* -------------- CHANGE THIS -------------------- */
+    background:url(http://www.techoneglobal.com/ppei3/sites/all/themes/ppei/css/nivo/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	opacity: 0;
+	-webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+.theme-default:hover .nivo-directionNav a { opacity: 1; }
+.theme-default a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+.theme-default a.nivo-prevNav {
+	left:15px;
+}
+
+.theme-default .nivo-caption {
+    font-family: Helvetica, Arial, sans-serif;
+    height: 120px;
+    color: #ffffff;
+}
+.theme-default .nivo-caption a {
+    color:#fff;
+    border-bottom:1px dotted #fff;
+}
+.theme-default .nivo-caption a:hover {
+    color:#fff;
+}
+
+.theme-default .nivo-controlNav.nivo-thumbs-enabled {
+	width: 100%;
+}
+.theme-default .nivo-controlNav.nivo-thumbs-enabled a {
+	width: auto;
+	height: auto;
+	background: none;
+	margin-bottom: 5px;
+}
+.theme-default .nivo-controlNav.nivo-thumbs-enabled img {
+	display: block;
+	width: 120px;
+	height: auto;
+}
+.nivo-caption p {font-size: 13px; color: #cccccc;}
+
+/* FOR GALLERY BLOCKS ON FRONT */
+.aboveFooter .block-views {float: left; width: 111px !important; margin: 0 2px;}
+.aboveFooter h2 {font-size: 11px !Important; text-align: center; line-height: 13px;}
+.region-content .block-views {padding: 10px 0 10px 0; border-bottom: 1px solid #607C26;}
+/*.region-content #block-system-main, .region-content #node-182 {display: none;}*/
+
+span.partnerTitle {font-size: 14px; padding-bottom: 0px; margin-bottom: 0px;}
+.partnerSite p {font-size: 11px; padding-top: 0px; margin-top: 0px;}
+.view-partners .views-row {border-bottom: 1px solid #607c26; margin-bottom: 15px !important;}
+.view-partners .views-row-last {border-bottom: 0px;}
+div.captionBoxImg {float: left; margin: 0 15px 10px 0; text-align: center;}
+div.captionBoxImg p {font-size: 11px; font-style: italic;}
+.view-all-publications .views-row,
+.view-all-policy-briefs .views-row,
+.view-all-presentation-materials .views-row,
+.view-all-speeches .views-row {
+    margin: 10px 0 10px 0; padding: 10px 0 10px 0; border-bottom: 1px solid #607c26; list-style: none;
+}
+div.node-policy-briefs > div.clear {display: none;}
+
+.pictureBlockGallery {float: left; width: 200px;}
+.page-node-192 .view-gallery .more-link {float: none !important; text-align: center; width: 170px;}
+.page-node-192 .region-content .block-views {float: left; width: 200px; border: 0px !important;}
+body.front ul.pager {display: none;}
+.views-row-last {border-bottom: 0px !important;}
+.field-name-field-download {margin-top: 10px;}
+.views-field-field-file1 {margin-top: 10px;}
+
+body.page-all-publications .views-field-title {font-size: 20px !important;}
+body.page-all-policy-briefs h1.green1, body.page-all-presentation-materials h1.green1, body.page-all-speeches h1.green1 {font-size: 20px !important;}
+
+
+.page-stories-of-change p, .page-news-events p {clear: both;}

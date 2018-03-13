@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+$body-bg: #E9EBEE;
+$main-font: 'Noto Sans';
+
+$primary: #9CCC65;
+$secondary: #558B2F;
+
+$primary-transparent: rgba(156, 204, 101, 0.3);
+$secondary-transparent: rgba(85, 139, 47, 0.7);
+$black-transparent: rgba(8, 9, 10, 0.7);
+
+$accent: #007BFF;
+$accent-secondary: darken($accent, 15%);
+
+$error: #f44336;
+$white: #ffffff;
+$black: #08090A;
+$gray: #DEDFE0;
+
+$text-secondary: #343A40;
+$text-muted: #868e96;
+$text-shadow: 1px 1px 1px #212121;
+
+$box-shadow: 4px 4px 0 lighten($black, 80%);
+$box-shadow-secondary: 4px 4px 0 lighten($black, 20%);
+$fab-shadow: 0px 2px 5px #666;
+
+$transition: all 500ms ease-in-out;
+$hover-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+$hover-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+$hover-shadow-secondary: 0 7px 14px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);

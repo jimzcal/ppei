@@ -1,0 +1,37 @@
+@media (max-width: 599px) {
+  #nav{
+    .navbar-brand{
+      .tagline{
+        display: none;
+      }
+    }
+  }
+
+	.site-index{
+    #banner{
+      #banner-content{
+        padding: 2rem 0;
+      }
+    }
+  }
+
+  footer{
+    #list-lower{
+      li{
+        float: unset;
+        border: unset;
+        padding: .5rem;
+      }
+    }
+  }
+
+  #components-partners{
+    .col-md{
+      justify-content: center;
+
+      .partner{
+        flex-basis: 30% !important;        
+      }
+    }
+  }
+}

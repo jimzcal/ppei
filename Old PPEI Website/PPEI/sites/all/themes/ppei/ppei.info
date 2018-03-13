@@ -1,0 +1,31 @@
+name = PPEI (DILG)
+description = Theme of the Philippine Poverty-Environment Initiative site
+core = 7.x
+
+screenshot = screenshot.png
+
+; CSS
+stylesheets[all][] = css/main.css
+; stylesheets[all][] = css/jquery.simplyscroll.css
+; stylesheets[all][] = css/nivo/default.css
+; stylesheets[all][] = css/nivo/nivo-slider.css
+; stylesheets[all][] = css/nivo/style.css
+
+; Javascripts
+scripts[] = js/jquery.simplyscroll.min.js
+scripts[] = js/jquery.simplyscroll.js
+scripts[] = js/ticker.js
+scripts[] = js/jquery.nivo.slider.pack.js
+scripts[] = js/nivo.js
+
+; Regions
+regions[content] = Content
+regions[header] = Header
+regions[mainarticle] = Main Article
+regions[sidebar] = Sidebar
+; regions[page_top] = Page Top
+regions[above_footer_up] = Above Footer Up
+regions[above_footer_down] = Above Footer Down
+regions[footer] = Footer
+regions[page_bottom] = Page Bottom
+regions[help] = Help

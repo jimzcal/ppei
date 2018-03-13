@@ -1,0 +1,493 @@
+#components-articles{
+	#error{
+		height: 500px;
+		padding: 2rem;
+		background-color: $white;
+	}
+
+	.articles-header{
+		i{
+			color: $black;
+		}
+		color: $secondary;
+		letter-spacing: -.1rem;
+		font-weight: bold;
+	}
+
+	.card{
+		transition: $hover-transition;
+
+		&:hover{
+			box-shadow: $hover-shadow;
+		}
+
+		// Standard img size 400/350
+		.card-img{
+			width: unset;
+		}
+
+		.card-img-overlay{
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+			padding: unset;
+
+			.card-content{
+				padding: 1rem;
+				background-color: $secondary-transparent;
+
+				.card-title{
+					color: $white;
+					font-weight: bold;
+					cursor: pointer;
+
+					&:hover{
+						text-decoration: underline;
+					}
+				}
+
+				.card-details{
+					color: $text-secondary;
+					margin-bottom: unset;
+
+					.fa-clock-o,
+					.fa-facebook,
+					.fa-twitter{
+						margin: 0 .1rem;
+					}
+
+					.fa-clock-o{
+						color: darken($white, 15%);
+					}
+
+					.fa-facebook,
+					.fa-twitter{
+						cursor: pointer;
+						color: $white;
+
+						&:hover{
+							color: $accent;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	#articles-head,
+	#articles-subhead{
+		.card{
+			margin-bottom: 1rem;
+		}
+	}
+
+	#articles-list{
+		.col-md-8{
+			.list-group{
+				overflow: hidden;
+
+				.list-group-item{
+					border-radius: unset;
+					padding: unset;
+					border-bottom: unset;
+					border-right: unset;
+					border-left: unset;
+					
+					&:first-child{
+						border-top: unset;
+					}
+
+					&:last-child{
+						border-bottom: unset;
+					}
+
+					.item-content{
+						padding: .75rem 1.25rem;
+						transition: $hover-transition;
+
+						&:hover{
+							background-color: $body-bg;
+						}
+
+						.item-overview{
+							padding-left: 1rem;
+
+							.item-title{
+								color: $secondary;
+								font-weight: bold;
+								cursor: pointer;
+
+								&:hover{
+									text-decoration: underline;
+								}
+							}
+
+							.item-summary{
+								color: $black;
+							}
+
+							.item-details{
+								color: $text-muted;
+
+								.fa-clock-o,
+								.fa-facebook,
+								.fa-twitter{
+									margin: 0 .1rem;
+								}
+
+								.fa-clock-o{
+									color: darken($secondary, 15%);
+								}
+
+								.fa-facebook,
+								.fa-twitter{
+									cursor: pointer;
+									color: $primary;
+
+									&:hover{
+										color: $secondary;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	#empty-list{
+		.list-group-item{
+			border-radius: unset;
+			padding: unset;
+			border-bottom: unset;
+			border-right: unset;
+			border-left: unset;
+
+			&:first-child{
+				border-top: unset;
+			}
+
+			&:last-child{
+				border-bottom: unset;
+			}
+
+			.item-content{
+				padding: .75rem 1.25rem;
+
+				.item-overview{
+					padding-left: 1rem;
+
+					.item-title{
+						width: 50%;
+						height: 1.5rem;
+						margin-bottom: 1rem;
+						background-color: $primary;
+					}
+
+					.item-summary{
+						height: 1rem;
+						margin-bottom: 5rem;
+						background-color: $gray;
+						width: 95%;
+
+						&::before, 
+						&::after{
+							content: "";
+							display: block;
+							height: 1rem;
+							width: 100%;
+							background-color: $gray;
+						}
+
+						&::before{
+							transform: translateY(2rem);
+							width: 85%;
+						}
+
+						&::after{
+							transform: translateY(3rem);
+							width: 90%;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#components-calendar{
+	.cal-header{
+		i{
+			color: $black;
+		}
+		color: $secondary;
+		font-size: 2rem;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	#mini-clndr {
+    width: 100%;
+    box-shadow: $box-shadow;
+
+    &.show-events {
+      .days-container {
+        opacity: 0 !important;
+        visibility: hidden !important;
+      }
+
+      .events-container {
+        opacity: 1 !important;
+        visibility: visible !important;
+        left: 0% !important;
+      }
+    }
+
+    .clndr {
+      border-bottom: 7px solid $secondary;
+      transition: $transition;
+
+      .controls {
+        background-color: $secondary;
+        color: $white;
+        display: flex;
+				align-items: center;
+
+        .clndr-previous-button,
+        .clndr-next-button {
+          width: 15%;
+          cursor: pointer;
+          text-align: center;
+          padding: 1.6rem 1rem;
+
+          &:hover {
+            background-color: darken($secondary, 10%);
+          }
+        }
+
+        .month-year {
+          width: 70%;
+          font-size: 1.4rem;
+          text-transform: uppercase;
+          font-weight: bold;
+          text-align: center;
+        }
+      }
+
+      .clndr-content {
+        display: flex;
+        position: relative;
+
+        .days-container {
+					width: 100%;
+          transition: $transition;
+
+          &::after {
+            display: block;
+            content: "";
+            clear: both;
+          }
+
+          .headers {
+            background-color: $primary;
+            display: flex;
+            align-items: center;
+            height: 4rem;
+
+            .day-header {
+              width: 14.28%;
+              text-align: center;
+              font-weight: bold;
+            }
+          }
+
+          .days-list {
+            &::after {
+              display: block;
+              content: "";
+              clear: both;
+            }
+
+            .day {
+              width: 14.28%;
+              height: 6rem;
+              line-height: 6rem;
+              text-align: center;
+              float: left;
+              border-right: 1px solid lighten($black, 85%);
+              border-bottom: 1px solid lighten($black, 85%);
+
+              &:nth-child(7),
+              &:nth-child(14),
+              &:nth-child(21),
+              &:nth-child(28),
+              &:nth-child(35),
+              &:nth-child(42) {
+                border-right: unset;
+              }
+
+              &.event {
+                cursor: pointer;
+                color: $white;
+                background-color: darken($primary, 10%);
+
+                &:hover {
+                  background-color: darken($primary, 15%);
+                }
+
+                &.adjacent-month {
+                  background-color: lighten($primary, 10%);
+                  color: lighten($black, 45%);
+
+                  &:hover {
+                    background-color: lighten($primary, 5%);
+                  }
+                }
+              }
+
+              &.adjacent-month {
+                color: lighten($black, 60%);
+              }
+            }
+          }
+        }
+
+        .events-container {
+          opacity: 0;
+          visibility: hidden;
+          left: 100%;
+          width: 100%;
+          position: absolute;
+          transition: $transition;
+
+          .headers {
+            background-color: $primary;
+            display: flex;
+            align-items: center;
+            height: 4rem;
+
+            .x-button {
+              position: absolute;
+              margin: 0 1rem;
+              cursor: pointer;
+
+              &:hover {
+                color: $white;
+              }
+            }
+
+            .event-header {
+              width: 100%;
+              text-align: center;
+              font-weight: bold;
+              text-transform: uppercase;
+            }
+          }
+
+          .events-list {
+            background-color: $white;
+            border-left: 1px solid lighten($black, 85%);
+            border-bottom: 1px solid lighten($black, 85%);
+            box-shadow: $box-shadow;
+
+            .event {
+              padding: 2rem 1rem;
+              border-bottom: 1px solid lighten($black, 85%);
+
+              #event-title {
+								font-weight: bold;
+                color: $secondary;
+              }
+            }
+          }
+        }
+      }
+    }
+	}
+}
+
+#components-partners{
+	h1{
+		font-weight: bold;
+		text-align: center;
+		color: $secondary;
+
+		i{
+			color: $black;
+		}
+	}
+
+	.col-md{
+		display: flex;
+		flex-wrap: wrap;
+
+		.partner{
+			flex-basis: 20%;
+			text-align: center;
+			margin: 1rem 0;
+
+			img{
+				margin-bottom: .4rem;
+				transition: $hover-transition;
+
+				&:hover{
+					box-shadow: $hover-shadow-secondary;
+				}
+			}
+
+			h6{
+				font-size: .9rem;
+				color: $black;
+				font-weight: bold;
+			}
+		}
+	}
+}
+
+#components-fab{
+	z-index: 1;
+	transition: $transition;
+	position: fixed;
+  bottom: 43%;
+  right: -10rem;
+  cursor: pointer;
+	box-shadow: $fab-shadow;
+
+	&.fab-show {
+		right: 1rem;
+	}
+	
+	.box{
+		background: $secondary;
+		color: $white;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 56px;
+		width: 56px;
+
+		&.box-up,
+		&.box-down{
+			transition: $hover-transition;
+			&:hover{
+				background-color: $white;
+				i{
+					color: $secondary;
+				}
+			}
+		}
+	}
+
+	hr{
+		margin: unset;
+		background-color: $white;
+	}
+}
+
+#empty-card{
+	&:hover{
+		box-shadow: unset !important;
+	}
+}
